@@ -118,7 +118,7 @@
 
   // --- lingua ---
   const LANGS = [ {code:'it',label:'Italiano'}, {code:'en',label:'English'}, {code:'fr',label:'Français'}, {code:'de',label:'Deutsch'} ];
-  let lang = (function(){ try { const s=localStorage.getItem('quizLang'); return LANGS.some(l=>l.code===s)?s:'it'; } catch(e){ return 'it'; } })();
+  let lang = (function(){ try { const s=localStorage.getItem('quizLang'); return LANGS.some(l=>l.code===s)?s:'en'; } catch(e){ return 'en'; } })();
   function tr(v){ if(v && typeof v==='object' && !Array.isArray(v)) return (v[lang]!=null?v[lang]:(v.it!=null?v.it:'')); return v; }
   const UI = {
     it:{ appTitle:'Quiz Colloquio Tecnico', subtitle:'Preparazione a colloqui tecnici — Java / Full-stack', mode:'Modalità', examMode:'Esame (spiegazioni a fine test)', studyMode:'Studio (feedback immediato)', nq:'N. domande', all:'Tutte', shuffleQ:'Mescola domande', shuffleO:'Mescola opzioni', mixed:'Esame misto (tutti i moduli)', questions:'domande', foot:'I risultati restano solo sul tuo dispositivo.', noModules:'Nessun modulo caricato.', language:'Lingua', home:'Home', back:'Indietro', next:'Avanti', finish:'Termina', typeCode:'Codice', typeTF:'Vero / Falso', typeSingle:'Risposta singola', correct:'Corretto', wrong:'Sbagliato', yourAnswer:'La tua risposta:', noAnswer:'Nessuna risposta', correctAnswer:'Risposta corretta:', showAll:'Mostra tutte', showWrong:'Mostra solo sbagliate', retryWrong:'Rifai solo le sbagliate', retryModule:'Rifai il modulo', nothingToShow:'Nessuna domanda da mostrare.', reviewErrors:'(ripasso errori)', sCorrect:'corrette', sWrong:'sbagliate', sTotal:'totali', mixedTitle:'Esame misto' },

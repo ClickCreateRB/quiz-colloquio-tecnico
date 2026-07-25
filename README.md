@@ -1,31 +1,32 @@
-# Quiz Colloquio Tecnico
+# Technical Interview Quiz
 
-Quiz interattivo per la preparazione a colloqui tecnici da **sviluppatore Java / full-stack**.
-Applicazione a file singolo: funziona offline nel browser, nessuna dipendenza, nessun server.
+Interactive quiz to prepare for **Java / full-stack developer** technical interviews.
+Single-file app: runs offline in the browser, no dependencies, no server.
 
-**▶️ Prova il quiz online:** https://clickcreaterb.github.io/quiz-colloquio-tecnico/quiz.html
+**▶️ Play online:** https://clickcreaterb.github.io/java-interview-quiz/quiz.html
 
-**Lingue:** Italiano · English *(Français, Deutsch, Español in arrivo)*
+**Languages:** English · Italiano *(Français, Deutsch, Español coming soon)*
 
-## Uso
-- **Online:** apri il link GitHub Pages qui sopra.
-- **In locale:** scarica [`quiz.html`](quiz.html) e aprilo con un doppio clic nel browser.
+## Usage
+- **Online:** open the GitHub Pages link above.
+- **Locally:** download [`quiz.html`](quiz.html) and open it with a double-click in your browser.
 
-## Contenuti
-14 moduli, 452 domande (risposta singola, vero/falso, esercizi di codice), ognuna con spiegazione dettagliata pensata per essere "detta a voce" in colloquio:
+## Content
+14 modules, 452 questions (single-answer, true/false, code exercises), each with a detailed explanation written to be said out loud in an interview:
 
-- **Fondamenti Java:** Java Core & OOP · Java Moderno (8-21) · Collections & Generics · Concorrenza & Multithreading · JVM, Memoria & Eccezioni
-- **Framework & dati:** Spring & Spring Boot · JPA / Hibernate · Database & SQL · REST & API design
-- **Pratiche:** Testing (JUnit/Mockito/TDD) · Build & DevOps (Maven/Gradle/Git/SVN/Jenkins) · Design Pattern & SOLID
-- **Dominio:** Banking & Fintech (MiFID II, IDD, GDPR)
+- **Java fundamentals:** Java Core & OOP · Modern Java (8-21) · Collections & Generics · Concurrency & Multithreading · JVM, Memory & Exceptions
+- **Frameworks & data:** Spring & Spring Boot · JPA / Hibernate · Database & SQL · REST & API design
+- **Practices:** Testing (JUnit/Mockito/TDD) · Build & DevOps (Maven/Gradle/Git/SVN/Jenkins) · Design Patterns & SOLID
+- **Domain:** Banking & Fintech (MiFID II, IDD, GDPR)
 - **Front-end:** JavaScript & React
 
-## Funzionalità
-- Scelta del singolo modulo o **esame misto** su tutti i moduli
-- Modalità **Studio** (spiegazione immediata) o **Esame** (riepilogo a fine test)
-- Mescolamento di domande e opzioni
-- Riepilogo finale con risposta corretta e spiegazione; opzione "rifai solo le sbagliate"
-- Punteggi migliori salvati in locale (localStorage del browser)
+## Features
+- Pick a single module or take a **mixed exam** across all modules
+- **Study** mode (instant explanation) or **Exam** mode (summary at the end)
+- Shuffle questions and options
+- Final summary with the correct answer and a detailed explanation; "retry wrong only" option
+- Best scores saved locally (browser localStorage)
+- Language switcher (English / Italiano, more coming)
 
-## Licenza
-Materiale di studio a uso libero.
+## License
+Free study material.
