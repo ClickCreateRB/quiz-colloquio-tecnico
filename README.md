@@ -5,6 +5,8 @@ Applicazione a file singolo: funziona offline nel browser, nessuna dipendenza, n
 
 **▶️ Prova il quiz online:** https://clickcreaterb.github.io/quiz-colloquio-tecnico/quiz.html
 
+**Lingue:** Italiano · English *(Français, Deutsch, Español in arrivo)*
+
 ## Uso
 - **Online:** apri il link GitHub Pages qui sopra.
 - **In locale:** scarica [`quiz.html`](quiz.html) e aprilo con un doppio clic nel browser.
