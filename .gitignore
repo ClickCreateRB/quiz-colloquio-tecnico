@@ -1,0 +1,6 @@
+# Dati personali — NON pubblicare mai
+CV.pdf
+*.pdf
+
+# Config locale della sessione
+.claude/
